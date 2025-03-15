@@ -38,7 +38,6 @@ target("EngineSquared")
     add_deps("PluginOpenGL")
     add_deps("PluginWindow")
     add_deps("PluginNativeScripting")
-    add_deps("UtilsLog")
 
     set_policy("build.warning", true)
 
